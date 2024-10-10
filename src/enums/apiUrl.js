@@ -1,1 +1,1 @@
-export const BaseUrl = 'http://localhost:3222/'
+export const BaseUrl = 'https://ecommerceserverv2-abzp.onrender.com/'
