@@ -93,7 +93,7 @@ userError && Swal.fire({
     
     return (
     <>  
-     { userStatus =="loading"&& <div className="absolute  w-screen h-screen top-0 left-0 backdrop-blur-sm  flex justify-center items-center z-50">
+     { userStatus =="loading"&& <div className="absolute  w-screen h-screen top-0 left-0 backdrop-blur-sm  flex justify-center items-center  z-50">
           <CircleLoader className="" color="#1385c2" size={150} />
         </div> }
     <form action="" onSubmit={handleSubmit}>
@@ -101,7 +101,7 @@ userError && Swal.fire({
 
 
    
-        <div className="w-full min-h-screen py-1 md:w-2/3 lg:w-3/4">
+        <div className="w-full min-h-screen py-1 md:w-2/3 lg:w-3/4 mt-12">
         <div className="p-2 md:p-4">
             <div className="w-full px-6 pb-8 mt-8 sm:max-w-xl sm:rounded-lg">
                 <h2 className="pl-6 text-2xl font-bold sm:text-xl">Public Profile</h2>

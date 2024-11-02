@@ -73,7 +73,7 @@ const Product = () => {
             </div>
               <div className="col-span-3  flex flex-wrap justify-between gap-4 p-3 ">
                 {products && products.map((product)=>
-                <div key={product._id } className="w-[30%] h-[500px] max-sm:h-auto max-md:w-[45%] max-sm:w-[100%]   bgLinear shadow-2xl rounded-lg ">
+                <div key={product._id } className="w-[30%] h-[] max-sm:h-auto max-md:w-[45%] max-sm:w-[100%]   bgLinear shadow-2xl rounded-lg ">
                
                   <ProductCard product={product}/>
 

@@ -54,7 +54,7 @@ const Login = () => {
   }, [isActiveUser, navigate]);
   const {values,handleChange,errors,handleSubmit,resetForm} = formik
   return (
-    <div className='flex justify-center items-center p-10'>
+    <div className='flex justify-center items-center p-10 mt-52'>
          
      <Card color="transparent" shadow={false}>
       <Typography variant="h4" color="blue-gray">
